@@ -1,4 +1,4 @@
-data = input("Enter list of numbers: ")
+data = input("Enter list of  five numbers: ")
 numbers = data.split()
 numbers = [int(i) for i in numbers]
 minval = 999999999999888
