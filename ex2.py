@@ -1,4 +1,4 @@
-upper = int(input("Enter a number: "))
+upper = int(input("Enter a number(just one): "))
 sumval = 0
 for i in range(1, upper + 1):
     sumval += i
