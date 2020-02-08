@@ -8,7 +8,7 @@ def RecursiveSum(n):
     return 1 if n == 1 else RecursiveSum(n - 1) + n
 print("Recursive Sum of 1 to", upper, "=", RecursiveSum(upper))
 
-data = input("Enter list of numbers: ")
+data = input("Enter list of five numbers: ")
 numbers = data.split()
 numbers = [int(i) for i in numbers]
 
