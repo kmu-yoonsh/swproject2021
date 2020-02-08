@@ -1,7 +1,7 @@
 data = input("Enter list of  five numbers: ")
 numbers = data.split()
 numbers = [int(i) for i in numbers]
-minval = 999999999999888
+minval = 999999999999666
 for val in numbers:
     if (minval > val):
         minval = val
